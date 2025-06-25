@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BonusCards — Бонусы за оформление карт</title>
+  <style>
+    body { font-family: sans-serif; color: #333; background: #f5f7fa; margin: 0; padding: 0; }
+    .container { max-width: 800px; margin: auto; padding: 20px; }
+    header { text-align: center; margin-bottom: 20px; }
+    header h1 { color: #0079ff; font-size: 2.5em; margin: 0; }
+    .features { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 30px; }
+    .features div { flex: 1 1 calc(50% - 10px); background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; }
+    .offers { display: grid; grid-template-columns: 1fr; gap: 20px; }
+    .offer-card { background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); overflow: hidden; }
+    .offer-card img.banner { width: 100%; height: auto; display: block; }
+    .offer-content { padding: 15px; }
+    .offer-content h2 { margin: 0 0 10px; color: #0079ff; }
+    .offer-content p { margin: 0 0 15px; }
+    .btn { display: inline-block; padding: 10px 20px; margin-bottom: 10px; background: #0079ff; color: #fff; text-decoration: none; border-radius: 4px; }
+    .btn:hover { background: #005ec2; }
+    .footer { text-align: center; font-size: 0.9em; color: #666; margin-top: 40px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>BonusCards</h1>
+      <p>Получите до 2 200 ₽ бонусами за оформление дебетовых карт</p>
+    </header>
+
+    <section class="features">
+      <div>✅ До 2 200 ₽ бонусами</div>
+      <div>✅ Онлайн оформление за 2 минуты</div>
+      <div>✅ Прозрачные условия и поддержка</div>
+      <div>✅ Бесплатная доставка карты</div>
+    </section>
+
+    <section class="offers">
+      <!-- PSB -->
+      <div class="offer-card">
+        <img class="banner" src="psb.png" alt="ПСБ: 1 000 ₽ в Золотое Яблоко">
+        <div class="offer-content">
+          <h2>ПСБ</h2>
+          <p>Потрать от 1 000 ₽ → получи 1 000 ₽ в «Золотое Яблоко»</p>
+          <a class="btn" href="https://rfnd.io/t/bv747/?pid=1994&sub1=sertif&erid=2SDnjceDiYm">Получить 1 000 ₽</a>
+        </div>
+      </div>
+      <!-- Gazprom -->
+      <div class="offer-card">
+        <img class="banner" src="gazprom.jpg" alt="Газпром: 1 000 ₽ + 1 000 баллов">
+        <div class="offer-content">
+          <h2>Газпромбанк</h2>
+          <p>Потрать от 1 000 ₽ → получи 1 000 ₽ сертификатом + 1 000 баллов (~800 ₽)</p>
+          <a class="btn" href="https://rfnd.io/t/wxpaa/?pid=1859&sub1=sertif&erid=2SDnjc4Ty9t">Получить бонус</a>
+        </div>
+      </div>
+      <!-- Alfa -->
+      <div class="offer-card">
+        <img class="banner" src="alfa.png" alt="Альфа: до 2 200 ₽ бонусов">
+        <div class="offer-content">
+          <h2>Альфа-Банк</h2>
+          <p>Потрать от 3 000 ₽ → получи 1 200 ₽ в ЗЯ + 1 000 ₽ кешбэком</p>
+          <a class="btn" href="https://rfnd.io/t/vmcf5/?pid=2137&sub1=sertif&erid=2SDnjeQgf9v">Забрать до 2 200 ₽</a>
+        </div>
+      </div>
+      <!-- MTS -->
+      <div class="offer-card">
+        <img class="banner" src="mts.png" alt="МТС Деньги: сертификат на маркетплейсы">
+        <div class="offer-content">
+          <h2>МТС Деньги</h2>
+          <p>Потрать от 500 ₽ → выбери сертификат на OZON / ЗЯ / Яндекс.Маркет</p>
+          <a class="btn" href="https://rfnd.io/t/jwygy/?pid=2012&sub1=sertif&erid=2SDnjcBtqyX">Выбрать подарок</a>
+        </div>
+      </div>
+      <!-- Fora -->
+      <div class="offer-card">
+        <img class="banner" src="fora.png" alt="Фора-Банк: 1 000 ₽ по SMS">
+        <div class="offer-content">
+          <h2>Фора-Банк</h2>
+          <p>Сделай покупку от 500 ₽ → получи 1 000 ₽ сертификатом по SMS</p>
+          <a class="btn" href="https://rfnd.io/t/catdw/?pid=2196&sub1=sertif&erid=2SDnjeeTNxV">Получить по SMS</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <p>Действует до 30.06.2025 (МТС — до 31.08.2025). Делитесь ссылкой с друзьями и получайте дополнительные бонусы!</p>
+    </div>
+  </div>
+</body>
+</html>
